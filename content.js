@@ -14,8 +14,6 @@ document.addEventListener('mouseup', (event) => {
     
     // 選択テキストがあり、かつ空でない場合
     if (selection.length > 0) {
-        
-        console.log("選択テキストがあり、かつ空でない場合")
         // バックグラウンドにメッセージを送信し、換算をリクエスト
         chrome.runtime.sendMessage({
             action: "convertInchToCm",
