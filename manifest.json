@@ -9,9 +9,6 @@
     "48": "icons/inch_cm_48.png",
     "128": "icons/inch_cm_128.png"
   },
-  "permissions": [
-    "scripting" 
-  ],
   "host_permissions": [
     "<all_urls>"
   ],
